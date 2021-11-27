@@ -1,0 +1,10 @@
+.root {
+    -fx-background-image: url("image/floor.jpg");
+}
+
+.button{
+    -fx-border-color: rgb(37, 93, 161);
+    -fx-border-radius: 5;
+    -fx-border-width: 2px;
+    -fx-padding: 3 6 6 6;
+}

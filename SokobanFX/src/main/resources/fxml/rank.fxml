@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ae2dms.controller.rankController">
+   <children>
+      <VBox prefHeight="113.0" prefWidth="350.0">
+         <children>
+            <Label fx:id="label" prefHeight="83.0" prefWidth="258.0" text="Label">
+               <VBox.margin>
+                  <Insets left="80.0" top="15.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <TableView fx:id="table" prefHeight="421.0" prefWidth="350.0">
+        <columns>
+          <TableColumn fx:id="num" prefWidth="105.33331549167633" text="Rank" />
+          <TableColumn fx:id="step" prefWidth="107.33336639404297" text="Steps" />
+            <TableColumn fx:id="score" prefWidth="135.99998474121094" text="Score" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

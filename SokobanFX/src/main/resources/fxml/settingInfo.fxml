@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f7e6c2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ae2dms.controller.settingInfoController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="294.66668701171875" minWidth="10.0" prefWidth="50.666666666666664" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="587.9999799728394" minWidth="10.0" prefWidth="510.66664632161456" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="587.9999799728394" minWidth="10.0" prefWidth="52.00002034505212" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="129.33330535888672" minHeight="0.0" prefHeight="53.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="309.33333428700763" minHeight="10.0" prefHeight="202.33333333333334" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="151.00001525878906" minHeight="10.0" prefHeight="144.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <ImageView fx:id="goBack" fitHeight="41.0" fitWidth="38.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../image/back.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="10.0" top="80.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Label fx:id="topic" prefHeight="53.0" prefWidth="437.0" text="Interesting features (4)" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="36.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="30.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
+      <ImageView fitHeight="188.0" fitWidth="299.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../image/setting.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="100.0" top="20.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Label fx:id="label" alignment="CENTER" prefHeight="112.0" prefWidth="533.0" text="You can choose your own setting here!&#10;Various objects can be set in the game.&#10;Just choose the image you prefer =_=" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="30.0" />
+         </GridPane.margin>
+      </Label>
+      <ImageView fx:id="next" fitHeight="40.0" fitWidth="36.0" onMouseClicked="#next" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../image/right.png" />
+         </image>
+         <GridPane.margin>
+            <Insets top="80.0" />
+         </GridPane.margin>
+      </ImageView>
+   </children>
+</GridPane>

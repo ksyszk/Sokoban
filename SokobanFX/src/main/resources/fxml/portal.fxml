@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="394.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="127.0" prefWidth="394.0">
+         <children>
+            <Label fx:id="topic" prefHeight="188.0" prefWidth="545.0" text="You find the secret Portal !" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets left="35.0" top="50.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="348.0" prefWidth="394.0">
+         <children>
+            <VBox prefHeight="208.0" prefWidth="394.0">
+               <children>
+                  <ImageView fitHeight="199.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/portal.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="90.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+            <Label fx:id="text" prefHeight="131.0" prefWidth="405.0" text="Complete the level!" textFill="#ffff82">
+               <font>
+                  <Font name="Comic Sans MS" size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="80.0" top="-40.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</VBox>
